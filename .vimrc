@@ -77,7 +77,7 @@ set showcmd       " display incomplete commands
 set incsearch     " do incremental searching
 set laststatus=2  " Always display the status line
 set autowrite     " Automatically :write before running commands
-set tags=.git/tags " path to tags file... created via git hooks. see git_template
+set tags=./.git/tags " path to tags file... created via git hooks. see git_template
 
 " Display trailing  white spaces
 set list listchars=tab:»·,trail:·
