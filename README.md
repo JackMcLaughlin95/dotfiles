@@ -3,5 +3,6 @@
 A bunch of dotfiles that I use a lot
 
 ## Setup
-run `rake` to symlink all dotfiles
+Run `./init.sh` to symlink dotfiles to home directory.
+This also handles required git config
 
