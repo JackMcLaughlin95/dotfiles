@@ -1,5 +1,5 @@
 --database=postgresql
 --skip-test-unit
 --skip-turbolinks
---template=/home/nathan/Projects/rails_template/rails_template.rb
+--template=~/Projects/rails_template/rails_template.rb
 
