@@ -2,6 +2,6 @@
 set -e
 PATH="/usr/local/bin:$PATH"
 trap "rm -f .git/tags.$$" EXIT
-ctags --tag-relative -Rf.git/tags.$$ --exclude=.git --languages=-javascript,sql . $(bundle list --paths)
-mv .git/tags.$$ .git/tags
+ctags --tag-relative -Rf.tags.$$ --exclude=.git --languages=-javascript,sql . $(bundle list --paths)
+mv .tags.$$ .tags
 
