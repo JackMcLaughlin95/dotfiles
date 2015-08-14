@@ -31,7 +31,7 @@ alias rdtp="bundle exec rake db:test:prepare"
 
 alias ack="ack-grep"
 
-alias coffee="/home/nathan/.node/lib/node_modules/coffee-script/bin/coffee"
+alias coffee="/home/Jack/.node/lib/node_modules/coffee-script/bin/coffee"
 
 # Key bindings
 # TODO: bind forward and backward word
@@ -91,11 +91,11 @@ export PATH=/usr/share/elasticsearch/bin:$PATH
 export PATH="/usr/local/share/npm/bin:$PATH"
 
 # My shell scripts
-export PATH=/home/nathan/Projects/shell_scripts:$PATH
+export PATH=/home/Jack/Projects/shell_scripts:$PATH
 
 # rbenv
 export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init - --no-rehash)"
+eval "$(rbenv init -)"
 source $HOME/.zshenv
 
 # ruby-build
@@ -110,7 +110,7 @@ export EDITOR=/usr/bin/vim
 
 # npm
 export PATH=$HOME/.node/bin:$PATH
-export NODE_PATH=$NODE_PATH:/home/nathan/.node/lib/node_modules
+export NODE_PATH=$NODE_PATH:/home/Jack/.node/lib/node_modules
 
 # go
 export GOPATH=$HOME/Projects/go
@@ -120,10 +120,13 @@ export PATH=$PATH:$GOPATH/bin
 export CPATH=$HOME/Projects/c
 export PATH=$PATH:$HOME/Projects/c/bin
 
-export CLOSURE_PATH=/home/nathan/Projects/shell_scripts/compiler.jar
+export CLOSURE_PATH=/home/Jack/Projects/shell_scripts/compiler.jar
 
-export PATH="/home/nathan/bin:$PATH"
+export PATH="/home/Jack/bin:$PATH"
 
 # added by travis gem
-[ -f /home/nathan/.travis/travis.sh ] && source /home/nathan/.travis/travis.sh
+[ -f /home/Jack/.travis/travis.sh ] && source /home/nathan/.travis/travis.sh
 
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"

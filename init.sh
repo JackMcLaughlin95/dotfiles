@@ -2,7 +2,7 @@
 
 # Symlink dotfiles
 
-FILES="$(ls -A -I README.md -I init.sh -I .git)"
+FILES="$(ls -A -1 | grep -viw .git | grep -viw README.md | grep -viw init.sh)"
 SRC_DIR="$(pwd)"
 
 cd ~
